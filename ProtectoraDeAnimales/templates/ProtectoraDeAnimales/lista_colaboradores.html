@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lista de colaboradores</title>
+    </head>
+    <body>
+        <h1>Lista de colaboradores</h1>
+        {% for Colaborador in colaboradores_mostrar%}
+            <animal>
+                <nombre>Nombre: {{Colaborador.nombre}}</nombre><br>
+                <descripcion>Descripción: {{Colaborador.descripcion}}</cuidador><br>
+                <fecha>Fecha de entrada: {{Colaborador.fecha_entrada_protectora}}</tipo><br>
+            </animal><br>
+        {% endfor %}
+    </body>
+</html>

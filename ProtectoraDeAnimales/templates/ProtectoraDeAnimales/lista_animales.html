@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lista de animales</title>
+    </head>
+    <body>
+        <h1>Lista de animales</h1>
+        {% for Animal in animales_mostrar%}
+            <animal>
+                <cuidador>Cuidador: {{Animal.cuidador}}</cuidador><br>
+                <nombre>Nombre: {{Animal.nombre}}</nombre><br>
+                <tipo>Tipo: {{Animal.tipo}}</tipo><br>
+            </animal><br>
+        {% endfor %}
+    </body>
+</html>
